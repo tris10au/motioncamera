@@ -27,7 +27,7 @@ python3 lighting.py &
 python3 main.py
 ```
 
-Or you can use tmux (see `start-server.sh`).
+Or you can use tmux (see `start-server.sh`). `start-server.sh` will start all of the services and also set ulimits to a sane level and disable power saving on the Wifi for the RPi.
 
 As this uses camera processing, you will likely need a fan which is what `enhanced-fanctl` was originally written for.
 
